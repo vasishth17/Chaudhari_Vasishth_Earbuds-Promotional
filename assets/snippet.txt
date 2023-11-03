@@ -1,0 +1,24 @@
+<model-viewer src="Earbuds.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="100.90181642998989m -230.14538353350574m 26.046650658948096m" data-normal="-0.172227663004299m 0.2084860556590805m 0.9627415004515992m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">silicone tips</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="369.5681141208055m -130.458499197967m -26.225705377373156m" data-normal="0.6437955219937858m 0.7624306441356031m -0.06501414264387934m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">LED</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="319.06305337064475m -598.3561813351337m 31.17630077546351m" data-normal="0.0071760679761824165m -0.998240206759229m 0.058864196738705424m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Charging Connectors</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-300.39158006261977m -506.09778662150524m 56.123135586265875m" data-normal="-0.22100462969288076m 0.02121219752580839m 0.9750420484935196m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Touch Control</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="-290.02314033559037m -146.28569682353316m -117.92638367873064m" data-normal="-0.1463072436522023m -0.6013296541698167m -0.7854914623793845m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Active noise cancellation</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="272.22881654955205m -115.37549562323949m 36.722419793821615m" data-normal="-0.015246856855869106m 0.7831224111661128m 0.6216806434861796m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Battery</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
