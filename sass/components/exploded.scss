@@ -1,0 +1,75 @@
+
+/* Explode View Styles */
+#explode-view {
+    max-width: 100%;
+  }
+  
+  /* X-Ray Styles */
+  #outerShell {
+    display: none;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    #mobile-tablet-view {
+      display: none;
+    }
+    .x-ray{
+      margin-left: 90px;
+    }
+    
+    #outerShell {
+      display: block;
+      max-width: 1200px;
+      border: solid 1px #666;
+      border-radius: 14px;
+    }
+    
+    #imageCon {
+      position: relative;
+      max-width: 1200px;
+      height: 100vh;
+    }
+    
+    .slideImage {
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 100vh;
+    }
+    
+    .image-right {
+      background: url(../image/earbuds-x-ray.jpg) no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+    
+    .image-left {
+      background: url(../image/earbuds.jpg) no-repeat;
+      background-size: cover;
+      background-position: center center;
+      width: 50%;
+      background-attachment: fixed;
+    }
+    
+    .image-drag {
+      background-color: #ff0000;
+      left: 50%;
+      width: 7px;
+      cursor: pointer;
+    }
+  
+    .hamburger{
+      margin-left: 255px;
+    }
+    
+  }
+  
+  @media screen and (min-width: 768px) {
+    .card {
+      background-color: #101010;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  }

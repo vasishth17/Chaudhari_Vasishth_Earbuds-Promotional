@@ -1,4 +1,9 @@
+@charset "UTF-8";
 
-@import 'abstracts';
-@import 'base';
-@import 'components';
+//have to include all of these otherwise main.css will be empty
+//We do not create styles in here
+
+@use 'abstracts';
+@use 'base';
+@use 'components';
+@use 'pages';
