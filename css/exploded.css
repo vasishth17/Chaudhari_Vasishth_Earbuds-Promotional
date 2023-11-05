@@ -46,7 +46,7 @@
     background-attachment: fixed;
   }
   .image-drag {
-    background-color: #ff0000;
+    background-color: #c3c3c3;
     left: 50%;
     width: 7px;
     cursor: pointer;

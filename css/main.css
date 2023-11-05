@@ -261,9 +261,9 @@ img {
     background-attachment: fixed;
   }
   .image-drag {
-    background-color: #ff0000;
+    background-color: #c2bebe;
     left: 50%;
-    width: 7px;
+    width: 6px;
     cursor: pointer;
   }
   .hamburger {
