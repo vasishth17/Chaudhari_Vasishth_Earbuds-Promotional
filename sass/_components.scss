@@ -1,0 +1,45 @@
+
+// Components
+
+// Logo
+.logo {
+    width: 300px;
+    color: blue;
+    font-weight: bolder;
+}
+
+// Header
+header {
+    background-color: azure;
+    @include flex-center;
+}
+
+// Navigation Bar
+.navbar {
+    min-height: 70px;
+    @include flex-center;
+    ul {
+        @include flex-center;
+        li {
+            list-style: none;
+            a {
+                color: $link-color;
+                text-decoration: none;
+                @include link-hover-effect;
+            }
+        }
+    }
+}
+
+// Search Styles
+.search-container {
+    @include flex-center;
+    background-color: $search-background-color;
+    box-shadow: 0 2px 5px $search-shadow-color;
+}
+
+// Hero Section Styles
+.hero-section {
+    @include responsive-image;
+    color: $hero-text-color;
+}
