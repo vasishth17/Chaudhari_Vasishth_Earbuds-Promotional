@@ -372,4 +372,76 @@ img {
 
 #founders section {
   margin-bottom: 40px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.contact-section {
+  background-color: #262626; /* Dark background */
+  color: white;
+  padding: 40px 0;
+  text-align: left;
+}
+
+.contact-container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px; /* Adjust the max-width as necessary */
+}
+
+.contact-container h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+}
+
+.contact-container p {
+  margin-bottom: 2em;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px; /* Space between each input */
+  border: 1px solid #333;
+  border-radius: 7px;
+  background: #fff;
+  color: #000;
+}
+
+.contact-form textarea {
+  grid-column: 1 / -1; /* Make textarea span full width */
+  height: 90px; /* Set a fixed height */
+}
+
+.contact-form button {
+  grid-column: 1 / -1; /* Make button span full width */
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact-form {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form button {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

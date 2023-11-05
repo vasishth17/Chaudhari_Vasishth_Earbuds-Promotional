@@ -58,11 +58,13 @@
     </div> -->
 
     <div class="hero-section">
+
         <div class="hero-img features">
             <img src="./image/hero-earbuds.webp" alt="Earbuds">
         </div>
         <div class="hero-text">
-            <h1>Sound That Travels</h1>
+            <h1 class="hidden">Header</h1>
+            <p class="bold-text">Sound That Travels</p>
             <p>Wireless
                 Earbuds for the Modern Listener</p>
         </div>
@@ -70,6 +72,7 @@
 
 
     <div class="grid-con">
+        <h2 class="hidden">ScrollTrigger</h2>
         <div class="col-span-full l-col-span-full features">
             <canvas id="explode-view"></canvas>
         </div>
@@ -77,6 +80,7 @@
 
     <div class=" grid-con ">
         <div class="col-span-full m-col-span-7 l-col-span-7 text features">
+            <h2 class="hidden">Features</h2>
 
             <img src="./image/image1.jpg" alt="">
             <p class="bold-text top-text">noise cancellation</p>
@@ -85,16 +89,16 @@
         </div>
         <div class="col-start-1 col-end-3 m-col-span-5  l-col-span-5 text features center">
             <p class="bold-text">10mm driver</p>
-            <img src="./image/earbud 1.jpg" alt="">
+            <img src="./image/earbud1.jpg" alt="">
         </div>
 
         <div class="col-start-3 col-end-5  m-col-span-5 l-col-span-5 text features center">
-            <img src="./image/earbud 2.jpg" alt="">
+            <img src="./image/earbud2.jpg" alt="">
             <p><span class="bold-text">ipx5</span> water
                 resistance</p>
         </div>
         <div class="col-span-4 m-col-span-7 l-col-span-7  features">
-            <img src="./image/earbud 6.jpg" alt="">
+            <img src="./image/earbud6.jpg" alt="">
             <p class="bold-text  top-text">30hrs total playback</p>
         </div>
         <div class="col-start-1 col-end-3 m-col-span-7 l-col-span-7 text features center">
@@ -131,7 +135,8 @@
     </div>
 
     <div class=" grid-con color card">
-        <div class="col-span-full m-col-span-full l-col-span-4  text center">
+        <div class="col-span-full m-col-span-full l-col-span-5  text center">
+            <h3 class="hidden">Features details</h3>
             <p class="bold-text">Powerful 42dB
                 noise cancellation
                 The ultimate escape</p>
@@ -191,6 +196,30 @@
         </div>
     </section>
 
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+        <h4 class="hidden">Contact Us</h4>
+        <div class="contact-container">
+            <h4 class="bold-text">Need Help Finding the Perfect Earbuds? Get in Touch.</h4>
+            <p>Step into superior sound with our premium earbuds. Questions? Need advice? Contact us, and let's enhance
+                your listening experience together.</p>
+
+            <form action="" method="POST" class="contact-form">
+                <h5 class="hidden">Contact form</h5>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <select name="subject" id="subject">
+                    <option value="">Subject</option>
+                    <option value="">Wireless</option>
+                    <option value="">headPhones</option>
+                    <!-- Add other options here -->
+                </select>
+                <textarea id="enquiry" name="enquiry" placeholder="Your Enquiry" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
 
 
     <footer class="footer footer-nav ">
@@ -202,37 +231,37 @@
                 </div> -->
 
 
-            <div class="links-col col-span-full m-col-span-3 l-col-span-2 text">
-                <h4>Recomended</h4>
+            <div class="links-col col-span-full m-col-span-2 l-col-span-2 text">
+                <h5>Recomended</h5>
                 <ul>
                     <li> <a href="#" class="nav-link">Earbuds 1</a></li>
                     <li><a href="#" class="nav-link">Earbuds 2</a></li>
                     <li><a href="" class="nav-link">Earbuds 3</a></li>
                 </ul>
             </div>
-            <div class="links-col col-span-full m-col-span-3 l-col-span-2 text">
-                <h4>Support</h4>
+            <div class="links-col col-span-full m-col-span-2 l-col-span-2  text">
+                <h5>Support</h5>
                 <ul>
                     <li><a href="" class="nav-link">FAQ</a></li>
                     <li><a href="" class="nav-link">Troubleshooting</a></li>
                     <li><a href="" class="nav-link">EU Declaration</a></li>
                 </ul>
             </div>
-            <div class="links-col col-span-full col-span-full m-col-span-3 l-col-span-2 text">
-                <h4>About Earbuds</h4>
+            <div class="links-col col-span-full col-span-full m-col-span-2 l-col-span-2  text">
+                <h5>About Earbuds</h5>
                 <ul>
                     <li><a href="" class="nav-link">Our Brand</a></li>
                     <li><a href="" class="nav-link">Newsroom</a></li>
                 </ul>
             </div>
-            <div class="links-col col-span-full col-span-full m-col-span-3 l-col-span-2 text">
-                <h4>Contact Earbuds</h4>
+            <div class="links-col col-span-full col-span-full m-col-span-2 l-col-span-2 text">
+                <h5>Contact Earbuds</h5>
                 <ul>
                     <li><a href="" class="nav-link">Our Brand</a></li>
                     <li><a href="" class="nav-link">Newsroom</a></li>
                 </ul>
             </div>
-            <div class="links-col col-span-full col-span-full m-col-span-3 l-col-span-2 text">
+            <div class="links-col col-span-full col-span-full m-col-span-3 l-col-span-3 text">
 
                 <ul>
                     <li><a href="" class="icons">
@@ -248,8 +277,6 @@
 
                     </li>
                 </ul>
-
-
             </div>
 
 
