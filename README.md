@@ -32,9 +32,6 @@ Contributions to the project are more than welcome! To contribute:
 ## License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
 
-## Contact
-- **Your Name** - [email@example.com](mailto:email@example.com)
-- **Project Link** - [https://github.com/yourusername/earbuds-website](https://github.com/yourusername/earbuds-website)
 
 ## Acknowledgments
 - Icons provided by [Font Awesome](https://fontawesome.com).
