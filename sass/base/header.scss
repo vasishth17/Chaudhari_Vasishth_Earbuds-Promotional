@@ -17,6 +17,11 @@ body {
     margin-left: 40px;
     margin-right: 40px;
   }
+  .black-text {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+  }
   
   /* Logo Styles */
   .logo {
@@ -35,7 +40,9 @@ body {
   
   .hero-text p{
     color: red;
+    font-size: 40px;
   }
+
   
   /* Navigation Bar */
   .navbar {
@@ -163,6 +170,23 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
+  }
+
+  @media screen and (min-width: 768px) {
+    .card {
+      background-color: #101010;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .hero-text p {
+      color: red;
+      font-size: 30px;
+    }
+    .hero-text p:first-of-type {
+      color: rgb(202, 202, 0);
+      font-size: 30px;
+    }
   }
   
   /* Image Styles */

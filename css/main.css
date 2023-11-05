@@ -1,3 +1,7 @@
+.black-text {
+  color: black;
+}
+
 /* Base Styles */
 body {
   color: white;
@@ -18,6 +22,12 @@ body {
   margin-right: 40px;
 }
 
+.black-text {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 /* Logo Styles */
 .logo {
   width: 300px;
@@ -30,9 +40,13 @@ header {
   background-color: azure;
 }
 
-.header-text {
-  font-size: 40px;
+.hero-img {
+  filter: brightness(50%);
+}
+
+.hero-text p {
   color: red;
+  font-size: 40px;
 }
 
 /* Navigation Bar */
@@ -153,17 +167,6 @@ header {
 
 .hero-img {
   position: relative;
-  filter: brightness(50%);
-}
-
-.hero-text p{
-  color: rgb(203, 203, 203);
-  font-size: 30px;
-  
-}
-
-.hero-text p:first-of-type {
-  font-size: 40px;
 }
 
 .hero-text {
@@ -272,9 +275,9 @@ img {
     background-attachment: fixed;
   }
   .image-drag {
-    background-color: #c2bebe;
+    background-color: #c3c3c3;
     left: 50%;
-    width: 6px;
+    width: 7px;
     cursor: pointer;
   }
   .hamburger {
@@ -287,6 +290,14 @@ img {
     padding: 20px;
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .hero-text p {
+    color: red;
+    font-size: 30px;
+  }
+  .hero-text p:first-of-type {
+    color: rgb(202, 202, 0);
+    font-size: 30px;
   }
 }
 /* Responsive Styles */
@@ -339,7 +350,17 @@ img {
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-}
+
+    .hero-text p {
+      color: red;
+      font-size: 30px;
+    }
+    .hero-text p:first-of-type {
+      color: rgb(202, 202, 0);
+      font-size: 30px;
+    }
+  }
+
 .border {
   border-bottom: 4px solid red;
   width: 100%;
@@ -385,6 +406,7 @@ img {
   margin-bottom: 40px;
 }
 
+/* Contact form */
 .contact-section {
   background-color: #262626; /* Dark background */
   color: white;
@@ -455,4 +477,7 @@ img {
     width: 100%;
   }
 }
+
+
+
 /*# sourceMappingURL=main.css.map */
