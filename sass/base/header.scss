@@ -29,9 +29,11 @@ body {
   header {
     background-color: azure;
   }
+  .hero-img{
+    filter: brightness(50%);
+  }
   
-  .header-text{
-    font-size: 40px;
+  .hero-text p{
     color: red;
   }
   

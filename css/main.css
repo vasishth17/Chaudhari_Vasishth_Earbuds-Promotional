@@ -153,6 +153,17 @@ header {
 
 .hero-img {
   position: relative;
+  filter: brightness(50%);
+}
+
+.hero-text p{
+  color: rgb(203, 203, 203);
+  font-size: 30px;
+  
+}
+
+.hero-text p:first-of-type {
+  font-size: 40px;
 }
 
 .hero-text {

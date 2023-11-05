@@ -30,8 +30,11 @@ header {
   background-color: azure;
 }
 
-.header-text {
-  font-size: 40px;
+.hero-img {
+  filter: brightness(50%);
+}
+
+.hero-text p {
   color: red;
 }
 
