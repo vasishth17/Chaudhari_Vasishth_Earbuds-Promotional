@@ -1,4 +1,5 @@
-![readme-img](https://github.com/vasishth17/Chaudhari_Vasishth_Earbuds-Promotional/assets/121986393/b6241099-43ba-4c41-a999-d4b45a0594e3)
+
+![earbuds-color](https://github.com/vasishth17/Chaudhari_Vasishth_Earbuds-Promotional/assets/121986393/cb8d0129-4d5a-474b-8bb3-3ff310f6e5ab)
 
 # Promotional Earbuds Website
 
