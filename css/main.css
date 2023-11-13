@@ -1,71 +1,60 @@
-<<<<<<< HEAD
-body{
-=======
-/* Base Styles */
-body {
->>>>>>> dev.vc
-  color: white;
-  background-color: black;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.black-text {
+  color: black;
 }
 
-<<<<<<< HEAD
-.text {
-padding: 20px;
-=======
+/* Base Styles */
+body {
+  color: white;
+  background-color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 /* Text and Spacing */
 .text {
   padding: 20px;
->>>>>>> dev.vc
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
-.space{
-=======
 .space {
->>>>>>> dev.vc
   margin-left: 40px;
   margin-right: 40px;
 }
 
-<<<<<<< HEAD
-
-
-/* .height{
-  height: 300px;
+.black-text {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
 }
-.no-height{
-  height: 100px;
-} */
 
-=======
 /* Logo Styles */
->>>>>>> dev.vc
 .logo {
   width: 300px;
   color: blue;
   font-weight: bolder;
 }
 
-<<<<<<< HEAD
-=======
 /* Header Styles */
->>>>>>> dev.vc
 header {
   background-color: azure;
 }
 
-<<<<<<< HEAD
-.navbar {
-  min-height: 70px;
-display: flex;
-  align-items: center;
-  padding: 0 24px;
+.hero-img {
+  filter: brightness(50%);
 }
-=======
+
+.hero-text p {
+  color: red;
+  font-size: 40px;
+}
+
 /* Navigation Bar */
 .navbar {
   min-height: 70px;
@@ -74,7 +63,6 @@ display: flex;
   padding: 0 24px;
 }
 
->>>>>>> dev.vc
 .navbar ul {
   display: flex;
 }
@@ -94,10 +82,7 @@ display: flex;
   gap: 60px;
 }
 
-<<<<<<< HEAD
-=======
 /* Hamburger Menu */
->>>>>>> dev.vc
 .hamburger {
   display: none;
   cursor: pointer;
@@ -112,10 +97,7 @@ display: flex;
   background-color: rgb(0, 0, 0);
 }
 
-<<<<<<< HEAD
-=======
 /* Navigation Link Styles */
->>>>>>> dev.vc
 .nav-link {
   position: relative;
   display: inline-block;
@@ -128,7 +110,7 @@ display: flex;
 }
 
 .nav-link::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -142,11 +124,8 @@ display: flex;
   width: 100%;
   left: 0;
 }
-<<<<<<< HEAD
-=======
 
 /* Search Styles */
->>>>>>> dev.vc
 .search-container {
   display: flex;
   align-items: center;
@@ -185,21 +164,11 @@ display: flex;
   width: 20px;
 }
 
-<<<<<<< HEAD
-
-
-
-.hero-section {
-  position: relative;
-  text-align: center; /* Centers the text horizontally */
-  color: white; /* Change the text color if needed */
-=======
 /* Hero Section Styles */
 .hero-section {
   position: relative;
   text-align: center;
   color: white;
->>>>>>> dev.vc
 }
 
 .hero-img {
@@ -208,33 +177,38 @@ display: flex;
 
 .hero-text {
   position: absolute;
-<<<<<<< HEAD
-  top: 50%; /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Adjust the positioning exactly to the center */
-  color: #ffffff; /* Change text color to white or any color as per your design */
-}
-
-img {
-  background: rgba(0, 0, 0, 0.5);
-  width: 100%; 
-  height: auto; /* Maintain aspect ratio */
-}
-
-
-
-
-.features img{
-  width: -webkit-fill-available;
-  border-radius: 14px;
-}
-=======
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #ffffff;
 }
 
+.hero-text p {
+  font-size: 30px;
+}
+
+.hero-text p:first-of-type {
+  color: rgb(202, 202, 0);
+  font-size: 37px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    background-color: #101010;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .hero-text p {
+    color: rgb(170, 255, 0);
+    font-size: 34px;
+  }
+  .hero-text p:first-of-type {
+    color: rgb(202, 202, 0);
+    font-size: 50px;
+    font-weight: bold;
+  }
+}
 /* Image Styles */
 img {
   background: rgba(0, 0, 0, 0.5);
@@ -248,54 +222,12 @@ img {
   border-radius: 14px;
 }
 
->>>>>>> dev.vc
 .features {
   width: -webkit-fill-available;
   position: relative;
 }
 
 .bold-text {
-<<<<<<< HEAD
-  color: rgb(255, 255, 255); /* Or any color that ensures the text is visible on your image */
-  font-size: 24px; /* Adjust as necessary */
-  font-weight: bold; /* Optional: makes the text bold */
-}
-
-  .top-text {
-      position: absolute;
-      top: 10px; 
-      right: 40px; 
-      /* Additional styling here */
-  }
-
-  .bottom-text {
-      position: absolute;
-      bottom: 10px; /* Adjust as necessary */
-      right: 40px; /* Adjust as necessary */
-      /* Additional styling here */
-  }
-/* .features:nth-of-type(3) {
- margin-top: 60px;
-} */
-.features:nth-of-type(6) .top-text {
-  position: absolute;
-  top: 23px;
-  right: 19px;
-  /* Additional styling here */
-}
-.center {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Horizontally center the content */
-  justify-content: center; /* Vertically center the content */
-  height: 100%; /* Take the full height of the parent */
-}
-
-
-
-
-
-=======
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-weight: bold;
@@ -327,161 +259,12 @@ img {
   height: 100%;
 }
 
-/* Responsive Styles */
->>>>>>> dev.vc
-@media(max-width: 768px) {
-  .hamburger {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .nav-menu {
-<<<<<<< HEAD
-      position: absolute;
-      left: -100%;
-      top: 10px;
-      gap: 0;
-      background-color: aliceblue;
-      width: 80%;
-      text-align: center;
-      transition: 0.3s;
-=======
-    position: absolute;
-    left: -100%;
-    top: 10px;
-    gap: 0;
-    background-color: aliceblue;
-    width: 80%;
-    text-align: center;
-    transition: 0.3s;
->>>>>>> dev.vc
-  }
-
-  .navbar li {
-    padding-right: 34px;
-  }
-
-  .nav-item {
-<<<<<<< HEAD
-      margin: 16px 0;
-  }
-
-  .nav-menu.active {
-      left: 0;
-  }
-
-  .hamburger.active .bar:nth-child(2) {
-      opacity: 0;
-  }
-
-  .hamburger.active .bar:nth-child(1) {
-      transform: translateY(8px) rotate(45deg);
-  }
-
-  .hamburger.active .bar:nth-child(3) {
-      transform: translateY(-8px) rotate(-45deg);
-  }
-}
-
-@media (max-width: 768px) {
-
-
-  .search-input {
-    display: none; /* Hides the input field entirely */
-  }
-  .search-container{
-    display: none;
-  }
-
-  .top-text {
-    position: absolute;
-    top: 5px; 
-    right: 40px; 
-    /* Additional styling here */
-}
-
-.bottom-text {
-    position: absolute;
-    bottom: 10px; /* Adjust as necessary */
-    right: 40px; /* Adjust as necessary */
-    /* Additional styling here */
-}
-
-.card {
-  background-color: #101010; /* White background */
-  padding: 20px;             /* Space inside the card */
-  margin: 20px 0;            /* Space around the card */
-   /* Light grey border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-}
-
-}
-.border{
-=======
-    margin: 16px 0;
-  }
-
-  .nav-menu.active {
-    left: 0;
-  }
-
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-
-  .search-input,
-  .search-container {
-    display: none;
-  }
-
-  .top-text,
-  .bottom-text {
-    right: 40px;
-  }
-
-  .card {
-    background-color: #101010;
-    padding: 20px;
-    margin: 20px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-}
-
-.border {
->>>>>>> dev.vc
-  border-bottom: 4px solid red;
-  width: 100%;
-}
-
-<<<<<<< HEAD
-
-
-
-#explode-view {
-  max-width: 100%;
-  /* width: 100vw; */
-}/*# sourceMappingURL=main.css.map */
-
-/* Xray */
-
-=======
 /* Explode View Styles */
 #explode-view {
   max-width: 100%;
 }
 
 /* X-Ray Styles */
->>>>>>> dev.vc
 #outerShell {
   display: none;
 }
@@ -490,71 +273,212 @@ img {
   #mobile-tablet-view {
     display: none;
   }
-<<<<<<< HEAD
-=======
-  
->>>>>>> dev.vc
+  .x-ray {
+    margin-left: 90px;
+  }
   #outerShell {
     display: block;
     max-width: 1200px;
     border: solid 1px #666;
     border-radius: 14px;
   }
-<<<<<<< HEAD
-=======
-  
->>>>>>> dev.vc
   #imageCon {
     position: relative;
     max-width: 1200px;
     height: 100vh;
   }
-<<<<<<< HEAD
-=======
-  
->>>>>>> dev.vc
   .slideImage {
     position: absolute;
     left: 0;
     right: 0;
     height: 100vh;
   }
-<<<<<<< HEAD
-=======
-  
->>>>>>> dev.vc
   .image-right {
     background: url(../image/earbuds-x-ray.jpg) no-repeat;
     background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
   }
-<<<<<<< HEAD
-=======
-  
->>>>>>> dev.vc
   .image-left {
     background: url(../image/earbuds.jpg) no-repeat;
     background-size: cover;
-    background-position: center center;
     width: 50%;
-    background-attachment: fixed;
   }
-<<<<<<< HEAD
-=======
-  
->>>>>>> dev.vc
   .image-drag {
-    background-color: #ff0000;
+    background-color: #c3c3c3;
     left: 50%;
     width: 7px;
     cursor: pointer;
   }
-<<<<<<< HEAD
-}/*# sourceMappingURL=main.css.map */
-
-
-
-=======
+  .hamburger {
+    margin-left: 255px;
+  }
 }
->>>>>>> dev.vc
+@media screen and (min-width: 768px) {
+  .card {
+    background-color: #101010;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-menu {
+    position: absolute;
+    left: -100%;
+    top: 10px;
+    gap: 0;
+    background-color: aliceblue;
+    width: 80%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .navbar li {
+    padding-right: 34px;
+  }
+  .nav-item {
+    margin: 16px 0;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .search-input,
+  .search-container {
+    display: none;
+  }
+  .top-text,
+  .bottom-text {
+    right: 40px;
+  }
+  .card {
+    background-color: #101010;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+.border {
+  border-bottom: 4px solid red;
+  width: 100%;
+}
+
+.contact-section {
+  background-color: #262626; /* Dark background */
+  color: white;
+  padding: 40px 0;
+  text-align: left;
+}
+
+.contact-container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px; /* Adjust the max-width as necessary */
+}
+
+.contact-container h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+}
+
+.contact-container p {
+  margin-bottom: 2em;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px; /* Space between each input */
+  border: 1px solid #333;
+  background: #fff;
+  color: #000;
+}
+
+.contact-form textarea {
+  grid-column: 1/-1; /* Make textarea span full width */
+  height: 150px; /* Set a fixed height */
+}
+
+.contact-form button {
+  grid-column: 1/-1; /* Make button span full width */
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact-form {
+    grid-template-columns: 1fr;
+  }
+  .contact-form button {
+    width: 100%;
+  }
+}
+/* footer stlye */
+.footer-nav {
+  display: flex;
+}
+
+.footer-nav ul {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.footer-nav ul li {
+  list-style: none;
+}
+
+.footer-nav ul li a {
+  color: rgb(192, 192, 192);
+  text-decoration: none;
+}
+
+.icons {
+  font-size: 40px;
+  padding-right: 10px;
+}
+
+.icons:hover {
+  color: #007bff; /* or any color that matches your design */
+  transition: color 0.3s ease-in-out;
+}
+
+#about-us {
+  margin-bottom: 40px;
+}
+
+#founders section {
+  margin-bottom: 40px;
+}/*# sourceMappingURL=main.css.map */
