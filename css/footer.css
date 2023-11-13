@@ -149,6 +149,6 @@
 }
 
 .icons:hover {
-  color: white;
-  transition: all 0.3s ease-in;
+  color: #007bff; /* or any color that matches your design */
+  transition: color 0.3s ease-in-out;
 }/*# sourceMappingURL=footer.css.map */

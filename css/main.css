@@ -8,6 +8,11 @@ body {
   background-color: black;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   overflow-x: hidden;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* Text and Spacing */
@@ -175,7 +180,16 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #ffffff;
+}
+
+.hero-text p {
+  font-size: 30px;
+}
+
+.hero-text p:first-of-type {
+  color: rgb(202, 202, 0);
+  font-size: 37px;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 768px) {
@@ -186,12 +200,13 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   .hero-text p {
-    color: red;
-    font-size: 30px;
+    color: rgb(170, 255, 0);
+    font-size: 34px;
   }
   .hero-text p:first-of-type {
     color: rgb(202, 202, 0);
-    font-size: 30px;
+    font-size: 50px;
+    font-weight: bold;
   }
 }
 /* Image Styles */
@@ -456,8 +471,8 @@ img {
 }
 
 .icons:hover {
-  color: white;
-  transition: all 0.3s ease-in;
+  color: #007bff; /* or any color that matches your design */
+  transition: color 0.3s ease-in-out;
 }
 
 #about-us {
